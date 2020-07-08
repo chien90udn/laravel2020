@@ -1,0 +1,128 @@
+#MessageUpdate{
+    display: none;
+}
+.description_prod{
+    border: solid red 1px;
+    padding: 10px;
+    background-color: #fffbe6;
+}
+.left-box-prod{
+    float: left;
+}
+.message-box{
+    padding: 10px;
+    font-size: 17px;
+}
+.sold{
+    /*background-color: red;*/
+    opacity: 0.9;
+    border-radius: 0px 0px 10px 10px;
+    font-size: 11px;
+    position: absolute;
+    left: 21px;
+    background: red;
+    width: 72px;
+    color: white;
+    text-align: center;
+
+}
+
+
+.product-img{
+    width: 100%;
+    padding: 15px;
+}
+.caption{
+    padding: 2px;
+}
+.img-product{
+    width:100px;
+    height: 70px;
+    object-fit: cover;
+    object-position: -20% 0;
+}
+.img_area{
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn-disabled{
+    background-color: #5a6268;
+    color: white;
+}
+
+.imgProd{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0% 0;
+}
+
+.imgProd-sm{
+    width: 50px;
+    height: 35px;
+    object-fit: cover;
+}
+#message-box{
+    padding: 30px 30px 20px;
+    border-bottom: 10px solid white;
+    overflow: auto;
+    height: 500px;
+}
+
+.image_area{
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.img_control{
+    float: left;
+    padding: 4px;
+    width: 10%
+
+}
+
+.icon_img{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+.picture_lang{
+    width: 30px;
+    object-fit: cover;
+}
+
+.img{
+    width: 100%;
+    height: 30px;
+    object-fit: cover;
+}
+
+.fa-circle-shadow{
+    font-size:12px;
+    color: red;
+    text-shadow: 0 0 3px #FF0000;
+}
+
+.btn-approve{
+    width: 70px;
+}
+.icon-area{
+    overflow: auto;
+    background: white;
+    padding: 15px;
+    font-size: 20px
+}
+
+.position_location{
+    width: 45px;
+}
+
+.btnSave{
+    color: white;
+    background: green;
+    padding: 3px;
+    border-radius: 5px;
+}

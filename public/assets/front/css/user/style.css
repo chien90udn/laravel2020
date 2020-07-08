@@ -1,0 +1,75 @@
+body{
+    background: #f4f4f4;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    text-rendering: optimizelegibility;
+}
+.taskbar-header{
+    background: white;
+}
+.logo-image{
+    width: 150px;
+}
+
+.add-product{
+    background: #dc3545;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+.add-product:hover{
+    background: #cf2541;
+}
+
+.form-control-borderless {
+    border: none;
+
+}
+.card-body{
+    padding: 5px;
+    padding-left: 10px;
+}
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.fixFooter{
+    background: white;
+    height: 50px;
+    line-height: 50px;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.container{
+    background: white;
+}
+
+.category_title1{
+     background: red;
+     text-align: center;
+     border-width: 1px;
+     border-color: #9d9d9d;
+     border-style: solid;
+     color: white;
+     width: 100%;
+
+ }
+.category_title{
+    text-align: center;
+    border-width: 1px;
+    border-color: #9d9d9d;
+    border-style: solid;
+    width: 100%;
+
+}
+
+.line{
+    background: #c8cbcf;
+    height: 1px;
+}
