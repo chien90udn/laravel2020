@@ -29,9 +29,9 @@
     <link rel="preconnect" href="https://s.ladicdn.com/" crossorigin>
     <link rel="preconnect" href="https://api.forms.ladipage.com/" crossorigin>
     <link rel="preconnect" href="https://la.ladipage.com/" crossorigin>
-    <link rel="preconnect" href="https://api.ladisales.com/" crossorigin>
+    <link rel="preconnect" href="https://api.ladisales.com/" crossorigin> 
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open Sans:bold,regular|Lobster:bold,regular&display=swap" as="style" onload="this.onload = null;this.rel = 'stylesheet';">
-    <link rel="preload" href="js/ladipage.min.js?v=1593678971461" as="script">
+    <link rel="preload" href="{{ URL::asset('assets/front/js/ladipage.min.js?v=1593678971461') }}" as="script">
     <style id="style_ladi" type="text/css">
     a,
     abbr,
@@ -3608,7 +3608,8 @@
             color: rgb(255, 255, 255);
             font-size: 16px;
             text-align: center;
-            line-height: 1.6;
+            line-height: 3.6;
+            background: rgb(243, 31, 21)
         }
 
         #FORM_ITEM468 {
@@ -6577,7 +6578,8 @@
             color: rgb(255, 255, 255);
             font-size: 16px;
             text-align: center;
-            line-height: 1.6;
+            line-height: 3.6;
+            background: rgb(243, 31, 21)
         }
 
         #FORM_ITEM468 {
@@ -8350,53 +8352,54 @@
                     <h3 class='ladi-headline'>ĐẶT MUA COMBO NHẬN NGAY ƯU ĐÃI</h3>
                 </div>
                 <div id="FORM466" data-config-id="5d9f327c6d745d481b9e4459" class="ladi-element">
-                    <form autocomplete="off" method="post" class='ladi-form'>
+                    <form action="{{ route('order') }}" autocomplete="off" method="POST" class='ladi-form'>
+                        @csrf
                         <div id="BUTTON467" class="ladi-element">
                             <div class='ladi-button'>
                                 <div class="ladi-button-background"></div>
                                 <div id="BUTTON_TEXT467" class="ladi-element">
-                                    <p class='ladi-headline'>HOÀN TẤT ĐƠN HÀNG</p>
+                                    <button type="submit" class="ladi-headline">HOÀN TẤT ĐƠN HÀNG</button>
                                 </div>
                             </div>
                         </div>
                         <div id="FORM_ITEM468" class="ladi-element">
                             <div class="ladi-form-item-container">
                                 <div class="ladi-form-item-background"></div>
-                                <div class='ladi-form-item'><input autocomplete="off" tabindex="1" name="name" required class="ladi-form-control" type="text" placeholder="Họ và tên" value="" /></div>
+                                <div class='ladi-form-item'><input autocomplete="off" tabindex="1" name="order_name" required class="ladi-form-control" type="text" placeholder="Họ và tên" value="" /></div>
                             </div>
                         </div>
                         <div id="FORM_ITEM470" class="ladi-element">
                             <div class="ladi-form-item-container">
                                 <div class="ladi-form-item-background"></div>
-                                <div class='ladi-form-item'><input autocomplete="off" tabindex="3" name="phone" required class="ladi-form-control" type="tel" placeholder="Số điện thoại" pattern="(09|03|07|08|05)+([0-9]{8})" value="" /></div>
+                                <div class='ladi-form-item'><input autocomplete="off" tabindex="3" name="order_phone" required class="ladi-form-control" type="tel" placeholder="Số điện thoại" pattern="(09|03|07|08|05)+([0-9]{8})" value="" /></div>
                             </div>
                         </div>
                         <div id="FORM_ITEM472" class="ladi-element">
                             <div class="ladi-form-item-container">
                                 <div class="ladi-form-item-background"></div>
-                                <div class='ladi-form-item'><input autocomplete="off" tabindex="5" name="address" required class="ladi-form-control" type="text" placeholder="Địa chỉ" value="" /></div>
+                                <div class='ladi-form-item'><input autocomplete="off" tabindex="5" name="order_address" required class="ladi-form-control" type="text" placeholder="Địa chỉ" value="" /></div>
                             </div>
                         </div>
                         <div id="FORM_ITEM704" class="ladi-element">
                             <div class="ladi-form-item-container">
                                 <div class="ladi-form-item-background"></div>
-                                <div class='ladi-form-item'><select tabindex="4" name="Quần lót QR02" class="ladi-form-control ladi-form-control-select" data-selected="">
-                                        <option value="">Size sản phẩm</option>
-                                        <option value="Size L (40 - 50KG) (hoặc vòng 3<90)">Size L (40 - 50KG) (hoặc vòng 3<90)</option> <option value="Size XL ( 50 - 60KG) (hoặc vòng 3<100)">Size XL ( 50 - 60KG) (hoặc vòng 3<100)</option> <option value="Size 2XL (60 - 70KG) (hoặc vòng 3<110)">Size 2XL (60 - 70KG) (hoặc vòng 3<110)</option> <option value="Chờ nhân viên tư vấn">Chờ nhân viên tư vấn</option>
+                                <div class='ladi-form-item'><select tabindex="4" name="order_product" class="ladi-form-control ladi-form-control-select" data-selected="">
+                                        <option value="">Sản phẩm</option>
+                                        <option value="Size L (40 - 50KG) (hoặc vòng 3<90)">Size L (40 - 50KG) (hoặc vòng 3<90)</option>
+                                        <option value="Size XL ( 50 - 60KG) (hoặc vòng 3<100)">Size XL ( 50 - 60KG) (hoặc vòng 3<100)</option>
+                                        <option value="Size 2XL (60 - 70KG) (hoặc vòng 3<110)">Size 2XL (60 - 70KG) (hoặc vòng 3<110)</option>
+                                        <option value="Chờ nhân viên tư vấn">Chờ nhân viên tư vấn</option>
                                     </select></div>
                             </div>
                         </div>
                         <div id="FORM_ITEM707" class="ladi-element">
                             <div class="ladi-form-item-container">
                                 <div class="ladi-form-item-background"></div>
-                                <div class='ladi-form-item'><select tabindex="5" name="SỐ LƯỢNG" class="ladi-form-control ladi-form-control-select" data-selected="">
-                                        <option value="">Vui lòng chọn số lượng cần đặt</option>
-                                        <option value="COMBO 1 SET 6 CHIẾC 170K+25K SHIP">COMBO 1 SET 6 CHIẾC 170K+25K SHIP</option>
-                                        <option value="COMBO 2 SET 12 CHIẾC 310K + FREESHIP">COMBO 2 SET 12 CHIẾC 310K + FREESHIP</option>
-                                        <option value="Chờ nhân viên tư vấn thêm">Chờ nhân viên tư vấn thêm</option>
-                                    </select></div>
+                                <div class='ladi-form-item'>
+                                    <textarea placeholder="Nhập thêm thông tin ..." name="order_comment" class="ladi-form-control ladi-form-control-select" ></textarea>
+                                </div>
                             </div>
-                        </div><button type="submit" class="ladi-hidden"></button>
+                        </div>
                     </form>
                 </div>
                 <div id="LINE477" class="ladi-element">
@@ -8612,9 +8615,9 @@
     </script>
     <!--[if lt IE 9]><script src="https://w.ladicdn.com/v2/source/html5shiv.min.js?v=1593678971461"></script><script src="https://w.ladicdn.com/v2/source/respond.min.js?v=1593678971461"></script><![endif]-->
     <link href="https://fonts.googleapis.com/css?family=Open Sans:bold,regular|Lobster:bold,regular&display=swap" rel="stylesheet" type="text/css">
-    <link href="css/ladipage.min.css?v=1593678971461" rel="stylesheet" type="text/css">
-    <script src="js/ladipage.min.js?v=1593678971461" type="text/javascript"></script>
-    <script id="script_event_data" type="text/javascript">
+    <link href="{{ URL::asset('assets/front/css/ladipage.min.css?v=1593678971461') }}" rel="stylesheet" type="text/css">
+    <script src="{{ URL::asset('assets/front/js/ladipage.min.js?v=1593678971461') }}" type="text/javascript"></script>
+    <!-- <script id="script_event_data" type="text/javascript">
     (function() { var run = function() { if (typeof window.LadiPageScript == "undefined" || window.LadiPageScript == undefined || typeof window.ladi == "undefined" || window.ladi == undefined) { setTimeout(run, 100); return; } window.LadiPageApp = window.LadiPageApp || new window.LadiPageAppV2();
             window.LadiPageScript.runtime.ladipage_id = '5dc6ca1ca5897379edf0d492';
             window.LadiPageScript.runtime.isMobileOnly = false;
@@ -8627,7 +8630,7 @@
             window.LadiPageScript.run(true);
             window.LadiPageScript.runEventScroll(); };
         run(); })();
-    </script>
+    </script> -->
     <script type="text/javascript">
         setInterval(function() {
             var e = document.querySelector('#HEADLINE639 .ladi-headline');

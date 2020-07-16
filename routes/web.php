@@ -39,6 +39,8 @@ Route::get('products','Front\ProductController@products')->name('products');
 Route::post('detail/{id}', 'Front\ProductController@send_contact')->name('send_contact');
 
 //Search
+Route::post('/order', 'Front\OrdersController@order')->name('order');
+Route::get('/orderSuccess', 'Front\OrdersController@orderSuccess')->name('orderSuccess');
 Route::post('/search', 'Front\ProductsController@search')->name('search');
 Route::get('/search', 'Front\ProductsController@search')->name('search');
 Route::get('/category/{id}', 'Front\ProductsController@search_category')->name('search_category');
