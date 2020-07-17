@@ -47,7 +47,7 @@ class OrdersController extends Controller
             'order_product' => $request->order_product,
             'order_comment' => $request->order_comment,
         ]);
-        Mail::to("chien90udn@gmail.com")->send(new SendContactOrder($request));
+        Mail::to(env('MAIL_DRIVER', "chien90udn@gmail.com"))->send(new SendContactOrder($request));
         return redirect()->route('orderSuccess');
     }
 
