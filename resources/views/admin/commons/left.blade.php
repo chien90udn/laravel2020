@@ -9,16 +9,15 @@
             <li class="header">MAIN NAVIGATION</li>
             <li><a href="{{ route('admin.index') }}"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
 
-            <li class="{{ (strpos(request()->route()->getActionName(), 'Products')) ? 'active' : ''}} treeview">
+            <li class="{{ (strpos(request()->route()->getActionName(), 'Orders')) ? 'active' : ''}} treeview">
                 <a href="#">
-                    <i class="fa fa-bars"></i> <span>Products</span>
+                    <i class="fa fa-bars"></i> <span>Orders</span>
                     <span class="pull-right-container">
                         <i class="fa fa-angle-left pull-right"></i>
                     </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="{{ route('admin.products.index') }}"><i class="fa fa-list text-blue"></i> {{ __('admin.Lists') }}</a></li>
-                    <li><a href="{{ route('admin.products.create') }}"><i class="fa fa-plus text-yellow"></i> {{ __('admin.New') }}</a></li>
+                    <li><a href="{{ route('admin.orders') }}"><i class="fa fa-list text-blue"></i> {{ __('admin.Lists') }}</a></li>
                 </ul>
             </li>
 

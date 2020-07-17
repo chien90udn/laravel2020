@@ -140,6 +140,7 @@ Route::group(['middleware' => ['is_admin'], 'prefix' => 'admin', 'as' => 'admin.
 
     Route::post('SetDefaultLang', 'Admin\LanguagesController@SetDefaultLang')->name('SetDefaultLang');
 
+    Route::get('orderList','Admin\OrdersController@index')->name('orders');
     Route::get('register','Auth\AdminLoginController@showRegisterPage');
     Route::post('updateApprove','Admin\ProductsController@updateApprove')->name('updateApprove');
     Route::post('updateHot','Admin\ProductsController@updateHot')->name('updateHot');

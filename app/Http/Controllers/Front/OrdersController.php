@@ -20,6 +20,9 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\MessageBag;
 use Carbon\Carbon;
+use Mail;
+use App\Models\Order;
+use App\Mail\SendContactOrder;
 
 
 class OrdersController extends Controller
@@ -37,8 +40,14 @@ class OrdersController extends Controller
 
     public function order(OrderRequest $request)
     {
-
-        
+        Order::create([
+            'order_name' => $request->order_name,
+            'order_phone' => $request->order_phone,
+            'order_address' => $request->order_address,
+            'order_product' => $request->order_product,
+            'order_comment' => $request->order_comment,
+        ]);
+        Mail::to("chien90udn@gmail.com")->send(new SendContactOrder($request));
         return redirect()->route('orderSuccess');
     }
 

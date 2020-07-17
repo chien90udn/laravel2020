@@ -1721,7 +1721,7 @@
         #HEADLINE255 {
             width: 476px;
             top: 24.1401px;
-            left: 472px;
+            left: 405px;
         }
 
         #HEADLINE255>.ladi-headline {
@@ -3845,20 +3845,6 @@
             background-color: rgba(243, 31, 21, 0);
         }
 
-        #IMAGE546 {
-            width: 61.75px;
-            height: 32.4361px;
-            top: 24.1401px;
-            left: 399.408px;
-        }
-
-        #IMAGE546>.ladi-image>.ladi-image-background {
-            width: 61.75px;
-            height: 32.4361px;
-            top: 0px;
-            left: 0px;
-            background-image: url("https://w.ladicdn.com/s400x350/5b5d90bfa3d8b07ab99c3a43/jfe-20191003163151.jpg");
-        }
 
         #SECTION550 {
             height: 104px;
@@ -4385,7 +4371,6 @@
         }
 
         #HEADLINE297 {
-            width: 139px;
             top: 38px;
             left: 45px;
         }
@@ -4502,7 +4487,7 @@
             height: 543.375px;
             top: 0px;
             left: 0px;
-            background-image: url("https://w.ladicdn.com/s850x850/5cfb32afa7bcf7374ed4e0e3/anh-tong-3-20191110060630.jpg");
+            background-image: url("{{ URL::asset('public/assets/front/images/108216143_302648194264657_4228078278354223735_n.JPG') }}");
         }
 
         #IMAGE622>.ladi-image {
@@ -4551,7 +4536,7 @@
             height: 430px;
             top: 0px;
             left: 0px;
-            background-image: url("https://w.ladicdn.com/s750x750/5cfb32afa7bcf7374ed4e0e3/anh-tong-4-20191110060633.jpg");
+            background-image: url("{{ URL::asset('public/assets/front/images/107569667_289240575522190_8558539693218574142_n.JPG') }}");
         }
 
         #IMAGE699 {
@@ -4566,7 +4551,7 @@
             height: 430px;
             top: 0px;
             left: 0px;
-            background-image: url("https://w.ladicdn.com/s750x750/5cfb32afa7bcf7374ed4e0e3/anh-tong-2-20191110060633.jpg");
+            background-image: url("{{ URL::asset('public/assets/front/images/107805805_203211074422920_5920243006218341292_n.JPG') }}");
         }
 
         #IMAGE700 {
@@ -4581,7 +4566,7 @@
             height: 430px;
             top: 0px;
             left: 0px;
-            background-image: url("https://w.ladicdn.com/s750x750/5cfb32afa7bcf7374ed4e0e3/12458959471_910771822640x640-20191110060633.jpg");
+            background-image: url("{{ URL::asset('public/assets/front/images/107831520_314839819647897_4567654016510366210_n.JPG') }}");
         }
 
         #IMAGE701 {
@@ -4592,11 +4577,11 @@
         }
 
         #IMAGE701>.ladi-image>.ladi-image-background {
-            width: 430px;
+            width: 430px; 
             height: 430px;
             top: 0px;
             left: 0px;
-            background-image: url("https://w.ladicdn.com/s750x750/5cfb32afa7bcf7374ed4e0e3/12496367970_910771822640x640-20191110060633.jpg");
+            background-image: url("{{ URL::asset('public/assets/front/images/108216143_302648194264657_4228078278354223735_n.JPG') }}");
         }
 
         #IMAGE702 {
@@ -4611,7 +4596,7 @@
             height: 322.5px;
             top: 0px;
             left: 0px;
-            background-image: url("https://w.ladicdn.com/s750x650/5cfb32afa7bcf7374ed4e0e3/e03a8382ef13094d5002-20191110063353.jpg");
+            background-image: url("{{ URL::asset('public/assets/front/images/108382987_559816941360105_377437693909188538_n.JPG') }}"); 
         }
 
         #IMAGE703 {
@@ -4626,7 +4611,7 @@
             height: 404.288px;
             top: -81.7875px;
             left: 0px;
-            background-image: url("https://w.ladicdn.com/s750x750/5cfb32afa7bcf7374ed4e0e3/11717358129_362254002-20191109143344.jpg");
+            background-image: url("{{ URL::asset('public/assets/front/images/108216143_302648194264657_4228078278354223735_n.JPG') }}");
         }
 
         #FORM_ITEM704 {
@@ -4648,7 +4633,7 @@
             height: 355.749px;
             top: 0px;
             left: 0px;
-            background-image: url("https://w.ladicdn.com/s700x700/5cfb32afa7bcf7374ed4e0e3/anh-tong-2-20191110060633.jpg");
+            background-image: url("{{ URL::asset('public/assets/front/images/108216143_302648194264657_4228078278354223735_n.JPG') }}");
         }
 
         #FORM_ITEM707 {
@@ -7472,7 +7457,7 @@
             height: 405.306px;
             top: 0px;
             left: 0px;
-            background-image: url("https://w.ladicdn.com/s750x750/5cfb32afa7bcf7374ed4e0e3/anh-tong-3-20191110060630.jpg");
+            background-image: url("{{ URL::asset('public/assets/front/images/108216143_302648194264657_4228078278354223735_n.JPG') }}");
         }
 
         #IMAGE622>.ladi-image {
@@ -7713,7 +7698,7 @@
                     <div class='ladi-box'></div>
                 </div>
                 <div id="HEADLINE255" class="ladi-element">
-                    <h5 class='ladi-headline'>Combo 06 chiếc quần lót Nhật cao cấp QR02- <span style="font-weight: bold;">Kháng khuẩn - Sang trọng - Quyến rũ</span></h5>
+                    <h5 class='ladi-headline'>RẮC CƠM DINH DƯỠNG YEN FOOD - <span style="font-weight: bold;">MÓN QUÀ BỔ DƯỠNG CHO SỨC KHỎE</span></h5>
                 </div>
                 <div id="HEADLINE268" class="ladi-element">
                     <h5 class='ladi-headline'>5.0</h5>
@@ -7851,11 +7836,6 @@
                         </div>
                     </div>
                 </div>
-                <div id="IMAGE546" class="ladi-element">
-                    <div class='ladi-image'>
-                        <div class="ladi-image-background"></div>
-                    </div>
-                </div>
                 <div id="GALLERY561" class="ladi-element">
                     <div class='ladi-gallery ladi-gallery-bottom'>
                         <div class="ladi-gallery-view">
@@ -7884,9 +7864,6 @@
                         </div>
                     </div>
                 </div>
-                <div id="HEADLINE633" class="ladi-element">
-                    <h5 class='ladi-headline'>(06 chiếc)</h5>
-                </div>
             </div>
         </div>
         <div id="SECTION12" class="ladi-section">
@@ -7899,58 +7876,84 @@
                     <div class='ladi-box'></div>
                 </div>
                 <div id="HEADLINE297" class="ladi-element">
-                    <h5 class='ladi-headline'>THÔNG SỐ</h5>
+                    <h5 class='ladi-headline'>1. Chắt lọc tinh hoa dinh dưỡng từ 10 loại đậu, hạt </h5>
                 </div>
                 <div id="HEADLINE298" class="ladi-element">
-                    <h5 class='ladi-headline'><span style="font-weight: bold;">Combo 06 chiếc quần lót Nhật cao cấp QR02 - Kháng khuẩn - Sang trọng - Quyến rũ</span><br><span style="text-decoration-line: underline;">Màu sắc: </span>Xanh Blue - Xanh Green - Trắng Xám - Nude - Hồng - Đen<br>Chất liệu: 95% cotton + 5% spatex<br><span style="text-decoration-line: underline;">Công Nghệ: </span>Sử dụng công nghệ NANO bạc giúp chống nấm mốc, kháng khuẩn , khử mùi, trên dây truyền công nghệ hiện đại của Nhật Bản.<br><span style="text-decoration-line: underline;">Đặc tính</span>: Mềm - Mỏng - Kháng khuẩn - Khử mùi - Thấm hút mồ hôi - Thoải mái vận động&nbsp;<br><br>
+                    <h5 class='ladi-headline'><span style="font-weight: bold;">Hạt chia, hạt điều, đậu xanh, đậu đỏ, mè, hạt sen, đậu trắng, đậu ngự, nấm rơm, đậu phộng hòa quyện tạo nên một sản phẩm thơm ngon, béo ngậy, ngọt ngào từ tự nhiên.</span><br><br>
                     </h5>
                 </div>
                 <div id="BOX317" class="ladi-element">
                     <div class='ladi-box'></div>
                 </div>
                 <div id="HEADLINE318" class="ladi-element">
-                    <h5 class='ladi-headline'>Tại sao phải thay quần lót ?</h5>
+                    <h5 class='ladi-headline'>2. Tiện lợi – Thơm ngon </h5>
                 </div>
                 <div id="BOX325" class="ladi-element">
                     <div class='ladi-box'></div>
                 </div>
-                <div id="HEADLINE326" class="ladi-element">
-                    <h5 class='ladi-headline'>HÌNH ẢNH THỰC TẾ</h5>
-                </div>
                 <div id="HEADLINE599" class="ladi-element">
-                    <h2 class='ladi-headline'>Theo khuyến nghị của các Bác sĩ thì chị em phụ nữ nên thay đồ lót từ 3 đến 6 tháng 1 lần tùy mức độ sử dụng để bảo vệ sức khỏe, ngăn ngừa các bệnh phụ khoa nguy hiểm. Quần lót thông thường sau 30 lần sử dụng nên thay, quần lót chuyên dùng vào những ngày đèn đỏ sau 15 lần sử dụng nên thay.</h2>
-                </div>
-                <div id="HEADLINE600" class="ladi-element">
-                    <h2 class='ladi-headline'>- Quần được sản xuất từ 95% cotton + 5% spatex, giúp sản phẩm mềm mại, êm ái, thấm hút mồ hôi tốt, kháng khuẩn 24/7 - Công nghệ NANO bạc thẩm thấu<br>- Sản phẩm sản xuất trên dây chuyền công nghệ Nhật Bản an toàn tuyệt đối<br></h2>
+                    <h2 class='ladi-headline'>Chỉ cần 1 hủ Rắc cơm dinh dưỡng YEN FOOD cùng cơm, xôi hay cháo, bánh mì, rau củ luộc là đã có 1 bữa ăn nhanh bổ dưỡng, không cần vào bếp. Đây là món rất tiện lợi cho các mẹ bỉm sửa bận bịu, cho người đi du lịch, đi công tác, các nhân viên công sở không có thời gian chuẩn bị bữa ăn.</h2>
                 </div>
                 <div id="IMAGE622" class="ladi-element">
                     <div class='ladi-image'>
                         <div class="ladi-image-background"></div>
                     </div>
                 </div>
-                <div id="GROUP626" class="ladi-element">
-                    <div class='ladi-group'>
-                        <div id="SHAPE624" class="ladi-element">
-                            <div class='ladi-shape'><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 1792 1896.0833" fill="rgba(204, 10, 10, 1.0)">
-                                    <path d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z"></path>
-                                </svg></div>
-                        </div>
-                        <div id="HEADLINE625" class="ladi-element">
-                            <h3 class='ladi-headline'>Khuyến nghị</h3>
+
+                <div>
+                    <div id="HEADLINE318" class="ladi-element">
+                        <h5 class='ladi-headline'>3. Đầy đủ dưỡng chất như ăn thịt bò, heo, gà, cá hồi </h5>
+                    </div>
+                    <div id="BOX325" class="ladi-element">
+                        <div class='ladi-box'></div>
+                    </div>
+                    <div id="HEADLINE599" class="ladi-element">
+                        <h2 class='ladi-headline'>Món ăn đầy đủ dưỡng chất như ăn thịt bò, heo, gà, cá hồi mà lại an toàn hơn rất nhiều. Đây sẽ là sự lựa chọn tối ưu trong thời kỳ ăn gì cũng sợ ung thư.</h2>
+                    </div>
+                    <div id="IMAGE622" class="ladi-element">
+                        <div class='ladi-image'>
+                            <div class="ladi-image-background"></div>
                         </div>
                     </div>
                 </div>
-                <div id="GROUP630" class="ladi-element">
-                    <div class='ladi-group'>
-                        <div id="SHAPE631" class="ladi-element">
-                            <div class='ladi-shape'><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 1792 1896.0833" fill="rgba(204, 10, 10, 1.0)">
-                                    <path d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z"></path>
-                                </svg></div>
-                        </div>
-                        <div id="HEADLINE632" class="ladi-element">
-                            <h3 class='ladi-headline'>An Toàn</h3>
+
+                <div>
+                    <div id="HEADLINE318" class="ladi-element">
+                        <h5 class='ladi-headline'>4. Phù hợp với mọi lứa tuổi</h5>
+                    </div>
+                    <div id="BOX325" class="ladi-element">
+                        <div class='ladi-box'></div>
+                    </div>
+                    <div id="HEADLINE599" class="ladi-element">
+                        <h2 class='ladi-headline'>Sản phẩm phù hợp với mọi lứa tuổi, đặc biệt thích hợp với trẻ biếng ăn, mẹ bầu cần bổ sung dinh dưỡng, người ăn chay, ăn kiêng, người có lối sống healthy.</h2>
+                    </div>
+                    <div id="IMAGE622" class="ladi-element">
+                        <div class='ladi-image'>
+                            <div class="ladi-image-background"></div>
                         </div>
                     </div>
+                </div>
+
+                <div>
+                    <div id="HEADLINE318" class="ladi-element">
+                        <h5 class='ladi-headline'>5. Không chất bảo quản, không chất phụ gia, không mì chính</h5>
+                    </div>
+                    <div id="BOX325" class="ladi-element">
+                        <div class='ladi-box'></div>
+                    </div>
+                    <div id="HEADLINE599" class="ladi-element">
+                        <h2 class='ladi-headline'>Sản phẩm hoàn toàn không sử dụng chất bảo quản, không sử dụng phụ gia, không hạt nêm, không mì chính. Trên sản phẩm có mã QR để xem thêm thông tin về Rắc cơm dinh dưỡng YEN FOOD.</h2>
+                    </div>
+                    <div id="IMAGE622" class="ladi-element">
+                        <div class='ladi-image'>
+                            <div class="ladi-image-background"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="HEADLINE326" class="ladi-element">
+                    <h5 class='ladi-headline'>HÌNH ẢNH THỰC TẾ</h5>
                 </div>
                 <div id="VIDEO697" class="ladi-element">
                     <div class='ladi-video'>
@@ -8343,7 +8346,7 @@
                     <div class='ladi-box'></div>
                 </div>
                 <div id="HEADLINE439" class="ladi-element">
-                    <h3 class='ladi-headline'>ƯU ĐÃI KHI MUA 2 SET 310.000 Đ</h3>
+                    <h3 class='ladi-headline'>ƯU ĐÃI KHI MUA 2 SP 310.000 Đ</h3>
                 </div>
                 <div id="HEADLINE440" class="ladi-element">
                     <h3 class='ladi-headline'>GIẢM GIÁ DUY NHẤT HÔM NAY</h3>
@@ -8553,7 +8556,7 @@
                     </div>
                 </div>
                 <div id="HEADLINE635" class="ladi-element">
-                    <h3 class='ladi-headline'>Combo 2 set miễn ship</h3>
+                    <h3 class='ladi-headline'>Combo miễn ship</h3>
                 </div>
                 <div id="HEADLINE638" class="ladi-element">
                     <h2 class='ladi-headline'>Chỉ còn</h2>

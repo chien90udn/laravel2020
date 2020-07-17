@@ -1405,7 +1405,7 @@
         }
 
         #SECTION1 {
-            height: 605px;
+            height: 100vh;
         }
 
         #SECTION1>.ladi-section-background {
@@ -1610,7 +1610,8 @@
                     <h1 class='ladi-headline'>Quý Khách Đã Đăng Ký Mua Hàng Thành Công!</h1>
                 </div>
                 <div id="PARAGRAPH6" class="ladi-element">
-                    <p class='ladi-paragraph'>Đơn hàng của quý khách đã được lưu vào hệ thống. Trong vòng 24h tới sẽ có nhân viên tư vấn gọi điện lại để xác nhận thông tin. <br>Quý khách vui lòng để ý điện thoại nhé.<br><br>Cám ơn Quý Khách rất nhiều!<br></p>
+                    <p class='ladi-paragraph'>Đơn hàng của quý khách đã được lưu vào hệ thống. Trong vòng 24h tới sẽ có nhân viên tư vấn gọi điện lại để xác nhận thông tin. <br>Quý khách vui lòng để ý điện thoại nhé.<br><br>Cám ơn Quý Khách rất nhiều!<br></p>
+                    <div style="padding-top:20px; text-align:center"><a style="font-size: 25px;font-weight: bold;color: blue;" href="{{ route('home') }}">TOP</a></div>
                 </div>
                 <div id="LINE7" class="ladi-element">
                     <div class='ladi-line'>
