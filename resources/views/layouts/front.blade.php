@@ -4487,7 +4487,7 @@
             height: 543.375px;
             top: 0px;
             left: 0px;
-            background-image: url("{{ URL::asset('public/assets/front/images/108216143_302648194264657_4228078278354223735_n.JPG') }}");
+            background-image: url("{{ URL::asset('public/assets/front/images/108216143_302648194264657_4228078278354223735_n.jpg') }}");
         }
 
         #IMAGE622>.ladi-image {
@@ -4536,7 +4536,7 @@
             height: 430px;
             top: 0px;
             left: 0px;
-            background-image: url("{{ URL::asset('public/assets/front/images/107569667_289240575522190_8558539693218574142_n.JPG') }}");
+            background-image: url("{{ URL::asset('public/assets/front/images/107569667_289240575522190_8558539693218574142_n.jpg') }}");
         }
 
         #IMAGE699 {
@@ -4551,7 +4551,7 @@
             height: 430px;
             top: 0px;
             left: 0px;
-            background-image: url("{{ URL::asset('public/assets/front/images/107805805_203211074422920_5920243006218341292_n.JPG') }}");
+            background-image: url("{{ URL::asset('public/assets/front/images/107805805_203211074422920_5920243006218341292_n.jpg') }}");
         }
 
         #IMAGE700 {
@@ -4566,7 +4566,7 @@
             height: 430px;
             top: 0px;
             left: 0px;
-            background-image: url("{{ URL::asset('public/assets/front/images/107831520_314839819647897_4567654016510366210_n.JPG') }}");
+            background-image: url("{{ URL::asset('public/assets/front/images/107831520_314839819647897_4567654016510366210_n.jpg') }}");
         }
 
         #IMAGE701 {
@@ -4581,7 +4581,7 @@
             height: 430px;
             top: 0px;
             left: 0px;
-            background-image: url("{{ URL::asset('public/assets/front/images/108216143_302648194264657_4228078278354223735_n.JPG') }}");
+            background-image: url("{{ URL::asset('public/assets/front/images/108216143_302648194264657_4228078278354223735_n.jpg') }}");
         }
 
         #IMAGE702 {
@@ -4596,7 +4596,7 @@
             height: 322.5px;
             top: 0px;
             left: 0px;
-            background-image: url("{{ URL::asset('public/assets/front/images/108382987_559816941360105_377437693909188538_n.JPG') }}"); 
+            background-image: url("{{ URL::asset('public/assets/front/images/108382987_559816941360105_377437693909188538_n.jpg') }}"); 
         }
 
         #IMAGE703 {
@@ -4611,7 +4611,7 @@
             height: 404.288px;
             top: -81.7875px;
             left: 0px;
-            background-image: url("{{ URL::asset('public/assets/front/images/108216143_302648194264657_4228078278354223735_n.JPG') }}");
+            background-image: url("{{ URL::asset('public/assets/front/images/108216143_302648194264657_4228078278354223735_n.jpg') }}");
         }
 
         #FORM_ITEM704 {
@@ -4633,7 +4633,7 @@
             height: 355.749px;
             top: 0px;
             left: 0px;
-            background-image: url("{{ URL::asset('public/assets/front/images/108216143_302648194264657_4228078278354223735_n.JPG') }}");
+            background-image: url("{{ URL::asset('public/assets/front/images/108216143_302648194264657_4228078278354223735_n.jpg') }}");
         }
 
         #FORM_ITEM707 {
@@ -7457,7 +7457,7 @@
             height: 405.306px;
             top: 0px;
             left: 0px;
-            background-image: url("{{ URL::asset('public/assets/front/images/108216143_302648194264657_4228078278354223735_n.JPG') }}");
+            background-image: url("{{ URL::asset('public/assets/front/images/108216143_302648194264657_4228078278354223735_n.jpg') }}");
         }
 
         #IMAGE622>.ladi-image {
